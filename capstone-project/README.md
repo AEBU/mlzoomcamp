@@ -1,10 +1,10 @@
 # Monto asignado para tipo de becas
 ## Descripción
-> Los presupuestos de financiamiento para becas obtenidas son dificiles de calcular debido a características o rubros distintos. Por ello se desea calcular una fórmula equitativa que permita una metodología de liquidación de montos asignados para una beca obtenida basado en un modelo de Machine Learning.
+> Funding budgets for scholarships obtained are difficult to calculate due to different characteristics or items. For this reason, it is desired to calculate an equitable formula that allows a methodology for liquidating amounts assigned for a scholarship obtained based on a Machine Learning model.
 
 
 ## Data (data/senescyt_becas_2022febrero.zip)
-> Se usa una base de datos de educación con montos asignados [link](https://www.datosabiertos.gob.ec/group/edu).
+> An education database with assigned amounts is used [link](https://www.datosabiertos.gob.ec/group/edu).
 > From 2001 to 2021 
 
 ## Overview Notebook
