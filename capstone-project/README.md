@@ -1,5 +1,5 @@
-# Monto asignado para tipo de becas
-## Descripción
+# Amount assigned for type of scholarships
+## Description
 > Funding budgets for scholarships obtained are difficult to calculate due to different characteristics or items. For this reason, it is desired to calculate an equitable formula that allows a methodology for liquidating amounts assigned for a scholarship obtained based on a Machine Learning model.
 
 
