@@ -29,3 +29,6 @@
         - Scaling UP: Aumentar equipos bajo demanda
         - Scaling Down: Disminuir equipos que no se usan.
     - Vertical: Aumentar recursos en el mismo equipo
+
+- Pass notebook to .py
+    jupyter nbconvert AlexisBautista_notebook.ipynb --to python

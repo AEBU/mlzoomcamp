@@ -27,9 +27,22 @@
 > Final MOdel
 - Random Forest
 
-## Reproducibly  (Pending)
-## Model Deployment  (Pending)
+## Exporting notebook to script
+- View *scripts/train.py*
+
+## Reproducibly
+-   Execute */process/AlexisBautista_notebook.ipynb*
+
+## Model Deployment
+- Steps
+    - execute python script */scripts/predict_flask.py*
+    - execute python script */scripts/predict_test.py*
+        - To get the score of career of scholarship
+            - y_pred_log: value logarithm
+            - y_pred_real: value with out logarithm (real)
+
 ## Dependency and environment Managment  (Pending)
+
 ## Containerization (Pending)
 ## Cloud deployment	 (Pending)
 
