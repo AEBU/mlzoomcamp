@@ -28,20 +28,25 @@
 - Random Forest
 
 ## Exporting notebook to script
-- View *scripts/train.py*
+- View *scripts_deployment/train.py*
 
 ## Reproducibly
 -   Execute */process/AlexisBautista_notebook.ipynb*
 
 ## Model Deployment
 - Steps
-    - execute python script */scripts/predict_flask.py*
-    - execute python script */scripts/predict_test.py*
+    - execute python script */scripts_deployment/predict_flask.py*
+    - execute python script */scripts_deployment/predict_test.py*
         - To get the score of career of scholarship
             - y_pred_log: value logarithm
             - y_pred_real: value with out logarithm (real)
 
-## Dependency and environment Managment  (Pending)
+## Dependency and environment Managment
+- Steps
+    - Below *scripts_deployment* we have a environment with pipenv
+    - Localize in folder and execute this commands:
+        - *pipenv shell* # To install and create virtual environment
+        - *gunicorn --bind 0.0.0.0:9696 predict_flask:ap* # *gunicorn --bind 0.0.0.0:9696 <file_to_run>:<name_app>* Execute app with gunicorn
 
 ## Containerization (Pending)
 ## Cloud deployment	 (Pending)
