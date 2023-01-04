@@ -11,9 +11,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.ensemble import RandomForestRegressor
 
-#TODO: Verificar Estas líneas de código.
-from IPython.display import display
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 

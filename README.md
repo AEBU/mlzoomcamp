@@ -12,6 +12,10 @@
     - Subida de Kubernetes
 
 ## Deployar un modelo
+- Pasos
+    - pip install pipenv
+    - pipenv install dependencies
+    This create two files (Pipfile and Pipfile.lock)
 - [Pip install](https://www.freecodecamp.org/espanol/news/como-usar-pip-install-en-python/) -> Usamos como un gestor de dependencias que descarga de forma global por default, se puede usar pip2 para Python2 y pip3 para Python3.
 - RUN vs (ENTRYPOINT y CMD)
     - RUN es para ejecutar en la creación o construcción de la imagen, por ejemplo paquetes dentro de la imagen y el CMD y ENTRYPOINT es para ejecutar cuando ya se tiene una imagen y se quiere ejecutar.
