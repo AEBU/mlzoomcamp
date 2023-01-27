@@ -10,7 +10,10 @@
 - Cloud
     - Subida de contenedores Docker
     - Subida de Kubernetes
-
+- Conda:
+    - conda create --name <name_env> python=<version_package>
+    - conda activate <name_env>
+    - conda deactivate
 ## Deployar un modelo
 - Pasos
     - pip install pipenv
